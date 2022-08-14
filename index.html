@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Tower of Hanoi</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <div class="selection"><label for="disk-select">Choose number of disks:</label>
+
+  <select class="items" name="disk" id="numDisk">
+    <option>2</option>
+    <option>3</option>
+    <option selected>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+  </select> and 
+  <button onclick="makeMove()" id="makemove" width="40">click to build the Tower of Hanoi</button></div>
+
+  <div class="game" id="game"></div>
+
+  <script src="./hanoi.js"></script>
+  <script src="./tower.js"></script>
+
+</body>
+</html>
